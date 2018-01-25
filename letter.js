@@ -1,6 +1,6 @@
-function Letter(ltr) {
-	this.char = ltr;
-	this.viewChar = (ltr.match(/[a-z]/i)) ? "_" : ltr;
+function letter (let) {
+    this.realChar = let;
+    this.viewChar = (let.match(/[a-z]/i)) ? "_" : let;
 };
 
-module.exports = Letter;
+module.exports = letter;
